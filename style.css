@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+}
+
+.top-container{
+    display:flex;
+    background: rgb(52, 114, 221);
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+.notifications{
+    flex:3;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.left-links{
+    display: flex;
+    padding-left: 8%;
+}
+.links{
+    display: flex;
+    margin-left: 4%;
+    height: 50px;
+    align-items: center;
+
+}
+.search{
+    flex:3;
+    color: white;
+    margin-top: 0.9%;
+
+}
+.search-icon{
+    margin-left: 5%;
+}
+.search-container{
+    width: 100%;
+}
+input:first-child{
+    width: 60%;
+    border: none;
+    outline: none;
+}
+.baner-container{
+    display: flex;
+    flex:2;
+    color: white;
+    margin: auto;
+    padding-left: 5%;
+}
+.baner{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-search{
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 30px;
+    border-radius: 20px;
+    align-items: center;
+}
+.home-time{
+    display:flex;
+    width: calc(100%-2/5);
+}
+.home-links{
+    padding-left: 10%;
+}
+.link-span{
+    background-color: red;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 500;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+/* ---------------- Dashboard   --------------------------------- */
+.dashboard{
+    display: flex;
+}
+
+.sidebar{
+    flex: 1;
+    /* height: calc(100vh - 50px); */
+    height: 106vh;
+    background-color: rgb(40, 56, 74);
+    padding-left: 20px;
+    /* box-shadow: 0px 0px 3px 3px rgb(65, 76, 89); */
+}
+
+.store{
+    padding: 20px 0px;
+    color: rgb(201, 192, 192);
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu-dashboard{
+    display: flex;
+    padding: 10px 0px;
+    font-weight: 600;
+    color: rgb(201, 192, 192);
+}
+.menu-dashboard label{
+    padding-left: 3px;
+}
+.main-bar{
+    flex:6;
+    color: white;
+    width: 100%;
+    /* height: calc(100vh - 50px); */
+    height: 106vh;
+    background-color: rgb(20, 32, 46);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.main-header-icons{
+    margin-top: 10px;
+}
+.elements{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    grid-area: "main-elements main-elements main-elements main-elements";
+    padding-top: 2px;
+    margin-right: 1.2%;
+    gap: 1%;
+
+    
+}
+.main-elements:first-child{
+    background-color: rgb(22, 92, 234);
+    margin-left: 5%;
+    border-radius: 5px;
+}
+.main-elements:nth-child(2){
+    background-color: orangered;
+    border-radius: 5px;
+}
+.main-elements:nth-child(3){
+    background-color: green;
+    border-radius: 5px;
+}
+.main-elements:nth-child(4),.main-elements:nth-child(4){
+    justify-content: space-between;
+    background-color:red;
+    border-radius: 5px;
+}  
+
+          
+
+.element-container{
+    display: flex;
+    justify-content: space-between;
+}
+.element-name{
+    padding-left: 10px;
+    padding-top: 25px;
+}
+.element-icon{
+    padding-top: 25px;
+    margin-right:10%;
+}
+.quantity{
+    padding-left: 10px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.main-graph{
+    padding: 15px;
+}
+.search-box{
+    flex: 20;
+    display: flex;
+    background-color: rgb(26, 40, 56);
+    height: 40px;
+    text-align: center;
+}
+.main-search-icon{
+    padding-top: 10px;
+    padding-left: 3%;
+}
+.icons{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(26, 40, 56);
+
+}
+.icons span{
+    padding-left: 7px;
+}
+input:nth-child(2){
+    width: 50%;
+    outline: none;
+    background-color: rgb(26, 40, 56);
+
+    border: none;
+    color: white;
+}
+.dashboad-title{
+    height: 40px;
+    background-color: rgb(26, 40, 56);
+    margin-top: 3px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
