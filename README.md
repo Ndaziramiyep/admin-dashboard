@@ -1,2 +1,2 @@
 # admin-dashboard
-Admin-dashboard
+Admin-dashboard for stock management and control
